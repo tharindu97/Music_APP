@@ -41,7 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
     _audioPlayer.onDurationChanged.listen((Duration duration){
       completeTime = duration.toString().split(".")[0];
     });
-  }
+  } 
 
   @override
   Widget build(BuildContext context) {
@@ -111,3 +111,4 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+/// New Update
